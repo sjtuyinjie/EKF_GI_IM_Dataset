@@ -27,7 +27,7 @@ The ground truth of the datasets is given in [Link](https://github.com/sjtuyinji
 
 
 ## 4.ACKNOWLEGEMENT
-Key Laboratory of Satellite Navigation and Mobile Communication Fusion Technology, Ministry of Industry and Information Technology, Beihang University
+Thank Key Laboratory of Satellite Navigation and Mobile Communication Fusion Technology, Ministry of Industry and Information Technology, Beihang University for support!
 
 
 
