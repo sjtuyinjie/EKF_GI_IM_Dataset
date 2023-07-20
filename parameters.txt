@@ -1,0 +1,95 @@
+# KF-GINS configuration file
+
+
+# processing interval[s]
+starttime=1687166880.694#
+endtime=1687168088.974#
+
+# 一、初始状态
+# 初始位置, 纬度 经度 高程
+initpos_lat=40.00538741#
+initpos_lon=116.38664053#
+initpos_h=36.55# 
+
+# initial velocity, speed in the directions of north, east and down. [m/s, m/s, m/s]
+initvel_n=-0.002253038#
+initvel_e=-0.01505363#
+initvel_u=-0.010393066#
+
+# initial attitude, euler angle(ZYX rotation), roll, pitch, yaw [deg, deg, deg]
+initatt_r=4.793113019#
+initatt_p=2.777180804#
+initatt_y=-88.80613533#
+
+# 初始IMU零偏和比例因子, IMU的三个轴(前、右、下)
+initgyrbias_f=10.0#[deg/h]
+initgyrbias_r=10.0#[deg/h]
+initgyrbias_d=10.0#[deg/h]
+
+initaccbias_f=10.1#[mGal]
+initaccbias_r=10.1#[mGal]
+initaccbias_d=10.1#[mGal]
+
+initgyrscale_f=10.1#[ppm]
+initgyrscale_r=10.1#[ppm]
+initgyrscale_d=10.1#[ppm]
+
+initaccscale_f=10.1#[ppm]
+initaccscale_r=10.1#[ppm]
+initaccscale_d=10.1#[ppm]
+
+
+
+# 二、初始状态标准差
+# initial state std
+# 初始位置标准差, 导航坐标系下 北向, 东向和垂向
+# initial position std, north, east and down in n-frame. [m, m, m]
+initposstd_n=2.5#
+initposstd_e=2.5#
+initposstd_u=2.5#
+
+# 初始速度标准差, 导航坐标系下北向、东向和垂向速度
+# initial velocity std, north, east and down speed in n-frame. [m/s, m/s, m/s]
+initvelstd_n=1.1#
+initvelstd_e=1.1#
+initvelstd_u=1.1#
+
+# 初始姿态标准差, 横滚、俯仰、航向角标准差
+# initial attitude std, roll, pitch and yaw std. [deg, deg, deg]
+initattstd_r=1.0#
+initattstd_p=1.0#
+initattstd_y=1.0#
+
+# IMU噪声建模参数, IMU的三个轴
+# IMU noise parameters
+arw=0.002#[deg/sqrt(hr)]
+vrw=0.002#[m/s/sqrt(hr)]
+gbstd=58#[deg/hr]
+abstd=571#[mGal]
+gsstd=100.0#[ppm]
+asstd=100.0#[ppm]
+corrtime=1.0#[hr]
+
+# 天线杆臂, IMU坐标系前右下方向
+# antenna lever, forward, right and down in the imu frame. [m]
+antlever_f=0.2#
+antlever_r=0.15#
+antlever_d=-0.6# 
+
+
+#GNSS参数部分
+gnss_elevation_thres=30.0#satellite elevation threshold (degree)  
+gnss_psr_std_thres=3.0#pseudo-range std threshold
+gnss_dopp_std_thres=3.0#doppler std threshold
+gnss_track_num_thres=20.0#原来是20  
+gnss_ddt_sigma=0.1#
+
+# gnss_iono_default_parameters: 
+iono_pars1=0.1118E-07#
+iono_pars2=0.2235E-07#
+iono_pars3=-0.4172E-06#
+iono_pars4=0.6557E-06#
+iono_pars5=0.1249E+06#
+iono_pars6=-0.4424E+06#
+iono_pars7=0.1507E+07#
+iono_pars8=-0.2621E+06#
