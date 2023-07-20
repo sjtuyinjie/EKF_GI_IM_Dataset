@@ -17,7 +17,7 @@ The raw GNSS data were acquired using a u-blox F9P board operating at a sampling
 <img src="https://github.com/sjtuyinjie/EKF_GI_IM_Dataset/blob/main/traj.png" width="800px">
 </div>
 
-<p align="left">Figure 1. The trajectory of EKF_GI_IM_Dataset on the map. </p>
+<p align="cnter">Figure 1. The trajectory of EKF_GI_IM_Dataset on the map. </p>
 
 
 ## 2.Calibration
