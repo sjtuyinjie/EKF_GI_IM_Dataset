@@ -13,16 +13,6 @@ This  dataset has following features:
 
 The raw GNSS data were acquired using a u-blox F9P board operating at a sampling rate of 10 Hz, while the raw IMU data was obtained through the MYNTEYE-s1030 module. The reference trajectory was computed using the post-processing kinematic mode of NovAtel Inertial Explorer software, utilizing the tactical-grade GNSS/INS POS320 system.
 
-## 2.Calibration
-The camera intrinsic and cam-imu extrinsics calibration results is given in [Link](https://github.com/sjtuyinjie/SJTU_GVI/tree/main/calibrations)
-## 3.Ground Truth
-The ground truth of the datasets is given in [Link](https://github.com/sjtuyinjie/SJTU_GVI/tree/main/data)
-
-
-
-## 1.Sequence 
-The extraction code is "yj66"
-
 
 ## 2.Calibration
 The parameters are given in [Link](https://github.com/sjtuyinjie/EKF_GI_IM_Dataset/blob/main/parameters.txt)
