@@ -13,6 +13,12 @@ This  dataset has following features:
 
 The raw GNSS data were acquired using a u-blox F9P board operating at a sampling rate of 10 Hz, while the raw IMU data was obtained through the MYNTEYE-s1030 module. The reference trajectory was computed using the post-processing kinematic mode of NovAtel Inertial Explorer software, utilizing the tactical-grade GNSS/INS POS320 system.
 
+<div align=center>
+<img src="https://github.com/sjtuyinjie/EKF_GI_IM_Dataset/blob/main/traj.png" width="800px">
+</div>
+
+<p align="left">Figure 1. The trajectory of EKF_GI_IM_Dataset on the map. </p>
+
 
 ## 2.Calibration
 The parameters are given in [Link](https://github.com/sjtuyinjie/EKF_GI_IM_Dataset/blob/main/parameters.txt)
